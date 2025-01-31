@@ -1,12 +1,14 @@
 import tkinter as tk
 
 class Calculator(tk.Tk):
+    #  initializing
     def __init__(self):
         super().__init__()
         self.title('Calculator App')
         self.curr_exp = ''
         self.frame_()
 
+    # making frame and buttons of calculator
     def frame_(self):
         self.frame1 = tk.Frame(self)
         self.frame1.pack(fill='both', expand=True)
@@ -23,6 +25,7 @@ class Calculator(tk.Tk):
             self.buton = tk.Button(self.frame1, command=lambda t=text: self.on_click(t), text=text, font=('Consolas', 30), height=1, width=3, bg='black', fg='white')
             self.buton.grid(row=row, column=col, sticky='ewns')
 
+    # adding functionality to the calculator
     def on_click(self, char):
         if char == 'C':
             self.label1.config(text='')

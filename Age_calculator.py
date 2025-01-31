@@ -26,11 +26,8 @@ class AgeCalculator(tk.Tk):
 
         try:
             self.now = datetime.datetime.now()
-            print(self.now)
             self.user_age = datetime.datetime.strptime(self.entry.get().strip(),"%d/%m/%Y")
-            print(self.user_age)
-            self.diff = (self.now - self.user_age).days 
-            print(self.diff)  # gives answer in days
+            self.diff = (self.now - self.user_age).days // 365
             self.show_var.set(self.diff)
         except ValueError:
             self.show_var.set('invalid input')
