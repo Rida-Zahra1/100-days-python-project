@@ -1,0 +1,24 @@
+{
+    "rida": {
+        "Name": "rida",
+        "Password": "rida",
+        "Account_info": {
+            "name": "rida",
+            "father": "zahra",
+            "DOB": "2025-02-04",
+            "pin": "778",
+            "amount": "12345"
+        }
+    },
+    "insia@gmail.com": {
+        "Name": "insia",
+        "Password": "12345",
+        "Account_info": {
+            "name": "insia",
+            "father": "zahra",
+            "DOB": "2018-02-02",
+            "pin": "1234",
+            "amount": 55000
+        }
+    }
+}
