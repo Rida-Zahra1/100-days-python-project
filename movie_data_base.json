@@ -1,0 +1,43 @@
+{
+    "The Ten Commandments (1956)": {
+        "seat": 3,
+        "audience_info": [
+            {
+                "name": "was",
+                "ticket_obtained": 2
+            }
+        ]
+    },
+    "Ben-Hur (1959)": {
+        "seat": 5
+    },
+    "The Passion of the Christ (2004)": {
+        "seat": 4,
+        "audience_info": [
+            {
+                "name": "hhh",
+                "ticket_obtained": 1
+            }
+        ]
+    },
+    "The Gospel According to St. Matthew (1964)": {
+        "seat": 5
+    },
+    "The Prince of Egypt (1998):": {
+        "seat": 0,
+        "audience_info": [
+            {
+                "name": "rida",
+                "ticket_obtained": 1
+            },
+            {
+                "name": "insia",
+                "ticket_obtained": 3
+            },
+            {
+                "name": "muiz",
+                "ticket_obtained": 1
+            }
+        ]
+    }
+}

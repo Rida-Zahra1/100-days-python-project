@@ -1,7 +1,7 @@
 import datetime
 import tkinter as tk
 from tkinter.messagebox import showinfo,showerror
-import pygame
+
 
 class AlarmClock(tk.Tk):
 
@@ -38,18 +38,11 @@ class AlarmClock(tk.Tk):
 
         if self.alarm_time and (self.alarm_time.hour,self.alarm_time.minute,self.alarm_time.second) == (current.hour,current.minute,current.second):
             showinfo('alarm time',"wake up")
-            self.play_alarm()
+            return
                 
 
         self.after(1000,self.alarm)
 
-    def play_alarm(self):
- 
-        file_name = "C:\\mini pro\\audio.mp3"
-
-        pygame.mixer.init()
-        pygame.mixer.music.load(file_name)
-        pygame.mixer.music.play()
 
 if __name__ == "__main__":
     app = AlarmClock()
